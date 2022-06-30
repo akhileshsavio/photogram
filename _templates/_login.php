@@ -6,15 +6,15 @@
  $result = validate_credentials($email, $password);
  if($result){
 ?>
-  <h1>Login is successfull</h1>
+  <h1>Login is successful</h1>
 <?php } else { ?>
 
 <main class="form-signin">
-  <form method="post" action="signin.php">
+  <form method="post" action="login.php">
 
     <div class="text-center"> 
       <img class="mb-4" src="../../photogram/assets/brand/photogram-logo.png" alt="" width="100" height="100" >
-      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      <h1 class="h3 mb-3 fw-normal">Login</h1>
     </div>
 
     <div class="form-floating">
@@ -33,7 +33,7 @@
       </label>
     </div>
 
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
 
   </form>
 </main>
